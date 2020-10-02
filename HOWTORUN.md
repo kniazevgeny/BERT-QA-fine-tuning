@@ -1,0 +1,1 @@
+!python run_squad.py --vocab_file=vocab.txt --bert_config_file=bert_config.json --init_checkpoint=bert_model.ckpt --do_train=False --train_file=/content/bert/train.json --do_predict=True --predict_file=dev-v1.1.json --train_batch_size=16 --learning_rate=4e-5 --num_train_epochs=5.0 --max_seq_length=320 --doc_stride=128 --output_dir=tmp/squad_base/
